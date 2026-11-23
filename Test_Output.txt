@@ -1,0 +1,24 @@
+STDOUT:
+Square | Area: 25.00 | Perimeter: 20.00
+Rectangle | Area: 24.00 | Perimeter: 20.00
+Circle | Area: 28.27 | Circumference: 18.85
+Square | Area: Circle | Area: 176.71 | Circumference: 47.12
+Rectangle | Area: 100.00 | Perimeter: 40.00
+Circle | Area: 3.14 | Circumference: 6.28
+Square | Area: 0.25 | Perimeter: 2.00
+Rectangle | Area: 0.01 | Perimeter: 0.40
+Square | Area: 225.00 | Perimeter: 60.00
+Circle | Area: Rectangle | Area: 96.00 | Perimeter: 40.00
+Square | Area: 81.00 | Perimeter: 36.00
+Circle | Area: 15.21 | Circumference: 13.82
+Rectangle | Area: Square | Area: 1.00 | Perimeter: 4.00
+Finished processing 20 line(s).
+
+STDERR:
+Line 4 - Invalid data: Square side must be greater than zero.
+Line 6 - Parse error: Unknown shape 'cuboid'.
+Line 12 - Parse error: Unknown shape '#'.
+Line 13 - Parse error: Unknown shape 'triangle'.
+Line 14 - Invalid data: Circle radius must be greater than zero.
+Line 17 - Parse error: Unknown shape 'hexagon'.
+Line 19 - Invalid data: Rectangle width must be greater than zero.

@@ -1,0 +1,7 @@
+Individual Reflection — ExceptionLab
+
+I implemented FileOpenException and ParseException, including their constructors and what() methods. I implemented openFileForReading() to throw FileOpenException when the file cannot be opened. I implemented six overloaded geometry calculations for square, rectangle, and circle area and perimeter/circumference. Each function validates dimensions and throws std::invalid_argument when a dimension is zero or negative.
+
+In main(), I added file-opening exception handling and per-record handling for ParseException, std::invalid_argument, and std::exception. The file is read one complete line at a time, so an unknown shape such as cuboid generates one parse error for that record rather than treating its numeric dimensions as additional shapes. Processing continues after each invalid record.
+
+This is an individual implementation, so no teammate merge conflict or teammate review is claimed.
